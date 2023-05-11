@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "card.html",
+    "href": "card.html",
+    "title": "Card",
+    "section": "",
+    "text": "There are 52 cards in a standard playing card deck. There are 4 suits:\n\nsuits\n\n['♣️', '♦️', '❤️', '♠️']\n\n\nThere are 14 ranks:\n\nranks\n\n[None, 'A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']\n\n\nNote that the first rank is None so that numeric ranks correspond to their indices. For example:\n\nranks[2]\n\n'2'\n\n\n\nsource\n\nCard\n\n Card (suit=0, rank=2)\n\nA standard playing card.\n\ncard = Card()\ncard\n\n2♣️\n\n\n\nassert repr(Card()) == \"2♣️\"\n\nYou can compare cards with the standard Python operators:\n\nassert Card(suit=0, rank=1) &lt; Card(suit=0, rank=5)\nassert Card(suit=0, rank=5) &gt; Card(suit=0, rank=1)\n\n\nimport nbdev; nbdev.nbdev_export()"
+  },
+  {
+    "objectID": "deck.html",
+    "href": "deck.html",
+    "title": "Deck",
+    "section": "",
+    "text": "source\n\nDeck\n\n Deck ()\n\nA collection of Cards.\n\ndeck = Deck()\ndeck\n\nA♣️ 2♣️ 3♣️ 4♣️ 5♣️ 6♣️ 7♣️ 8♣️ 9♣️ 10♣️ J♣️ Q♣️ K♣️ A♦️ 2♦️ 3♦️ 4♦️ 5♦️ 6♦️ 7♦️ 8♦️ 9♦️ 10♦️ J♦️ Q♦️ K♦️ A❤️ 2❤️ 3❤️ 4❤️ 5❤️ 6❤️ 7❤️ 8❤️ 9❤️ 10❤️ J❤️ Q❤️ K❤️ A♠️ 2♠️ 3♠️ 4♠️ 5♠️ 6♠️ 7♠️ 8♠️ 9♠️ 10♠️ J♠️ Q♠️ K♠️\n\n\n\nimport nbdev; nbdev.nbdev_export()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "cards",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "cards",
+    "section": "Install",
+    "text": "Install\npip install cards"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "cards",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  }
+]
