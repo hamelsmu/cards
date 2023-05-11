@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "cards"
+  site-url: "https://hamelsmu.github.io/cards"
+  description: "A library for working with standard playing cards"
+  repo-branch: main
+  repo-url: "https://github.com/hamelsmu/cards"
